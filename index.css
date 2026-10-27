@@ -1,46 +1,32 @@
-body {
-  margin: 0;
+* {
   box-sizing: border-box;
-  font-family: "Roboto";
 }
+
 .header {
-  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 950px;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px auto;
-  max-width: 892px;
+  max-width: 950px;
+  margin: 0 auto;
 }
 
 .logo {
-  width: 48px;
+  background-color: #00d1b2;
   height: 48px;
+  width: 48px;
   border-radius: 50%;
-  background-color: #c4c4c4;
 }
 
 .form {
-  width: 100%;
-  padding: 0 20px;
-  max-width: 892px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 950px;
 }
-
 .form-container {
-}
-
-.form-title {
-  font-size: 32px;
-}
-
-.form-subtitle {
-  font-size: 20px;
-  margin-bottom: 35px;
-  width: 277px;
-}
-
-.form-buttons {
-  margin-top: 15px;
 }
