@@ -11,44 +11,57 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="index.css" />
+    <!--<link rel="stylesheet" href="index.css" />-->
     <title>Document</title>
   </head>
   <body>
-    <div class="header">
-      <div class="header-container">
-        <div class="logo"></div>
-        <button class="button is-primary">Ingresar</button>
-      </div>
-    </div>
-    <form class="form" action="">
-      <div class="form-container">
-        <h1 class="subtitle is-1">Escribinos</h1>
-        <h3 class="subtitle">Dejanos tu mensaje y te responderemos pronto.</h3>
-        <div class="field">
-          <label class="label">Name</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="Text input" />
-          </div>
+    <div class="container is-max-desktop">
+      <header class="columns is-mobile m-2">
+        <div class="column m-3">
+          <figure class="image is-48x48">
+            <img
+              class="is-rounded"
+              src="https://bulma.io/assets/images/placeholders/48x48.png" />
+          </figure>
         </div>
-        <div class="field">
-          <label class="label">Message</label>
-          <div class="control">
-            <textarea class="textarea" placeholder="textarea"></textarea>
-          </div>
+        <div class="column"></div>
+        <div class="column is-three-quarters-mobile m-3">
+          <button class="button is-primary is-medium is-fullwidth">
+            Ingresar
+          </button>
         </div>
+      </header>
+      <form class="form m-2" action="">
+        <div class="form-container">
+          <h1 class="subtitle is-1">Escribinos</h1>
+          <h3 class="subtitle">
+            Dejanos tu mensaje y te responderemos pronto.
+          </h3>
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Text input" />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="textarea"></textarea>
+            </div>
+          </div>
 
-        <div class="form-buttons">
-          <div class="field is-grouped">
-            <div class="control">
-              <button class="button is-link">Submit</button>
-            </div>
-            <div class="control">
-              <button class="button is-link is-light">Cancel</button>
+          <div class="form-buttons">
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link">Submit</button>
+              </div>
+              <div class="control">
+                <button class="button is-link is-light">Cancel</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </div>
   </body>
 </html>
